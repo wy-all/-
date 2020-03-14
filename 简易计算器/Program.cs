@@ -10,6 +10,8 @@ namespace 简易计算器
     {
         static void Main(string[] args)
         {
+            Calculator c = new Calculator();
+            c.Func();
         }
     }
 }
