@@ -42,7 +42,7 @@ namespace 简易计算器
             }
             try
             {
-                Console.WriteLine("输入运算符");
+                Console.WriteLine("输入运算符【+】【-】【*】【/】【=】");
                 _operator = char.Parse(Console.ReadLine());
             }
             catch (Exception)
